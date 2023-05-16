@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 4em auto;
+    margin: 5em auto;
 }
 
 .foto-texto{
@@ -21,7 +21,7 @@
     
 }
 .foto-texto > p{
-  color: rgb(159, 171, 178);
+  color: #33475b;
   text-align: left;
   display: flex;
   align-items: center;

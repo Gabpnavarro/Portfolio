@@ -9,8 +9,7 @@
     align-items: center;
     justify-content: center;
     gap: 2em;
-
-}
+}  
 
 .titulo-subtitulo{
     display: flex;
