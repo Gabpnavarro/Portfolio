@@ -1,0 +1,8 @@
+@import url('../reset/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('./cabecalho.css');
+@import url('./boas-vindas.css');
+@import url('./sobre.css');
+@import url('./tecnologias.css');
+@import url('./formacao-academica.css');
+@import url('./projetos.css');

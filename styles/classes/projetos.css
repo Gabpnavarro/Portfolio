@@ -1,0 +1,45 @@
+.projetos{
+    text-align: center;
+    background-color: #33475b;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.projetos>h2{
+    color: white;
+    margin: 1em auto;
+}
+
+.titulo-img>img{
+    height: 200px;
+}
+
+.text-projeto{
+    background: linear-gradient(to bottom, #192530, #253545);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+.text-projeto>h2{
+    color: white;
+    margin: 1em auto;
+}
+
+.destaque{
+    background: linear-gradient(to bottom, #253545, #33475b);
+    width: 100%;
+}
+
+.destaque>h2{
+    color: white;
+}
+.destaque-img>img{
+    width: 600px;
+}
