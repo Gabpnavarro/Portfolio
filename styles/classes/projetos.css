@@ -1,5 +1,6 @@
 .projetos{
     background-color: #33475b;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -15,7 +16,7 @@
 .texto-projeto{
     background: linear-gradient(to bottom, #192530, #253545);
     display: flex;
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
     gap: 1em;
     padding-bottom: 1em;
@@ -29,8 +30,9 @@
     color: rgb(219, 219, 219);
 }
 .texto-projeto>p{
-    width: 600px;
+    max-width: 80vw;
     margin: 0 auto;
+    text-align: justify;
 }
 
 .destaque{
@@ -47,7 +49,8 @@
 }
 
 .destaque>p{
-    width: 600px;
+    max-width: 80vw;
+    text-align: justify;
 }
 
 .destaque-super>img{
@@ -107,13 +110,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 600px;
     padding: 32px;
     margin-bottom: 1em;
     border-radius: 4px; 
 }
-
-
 
 .botoes, .botoes-destaque{
     display: flex;
@@ -181,3 +181,37 @@
     font-size: 12px;
 }
 
+@media (max-width: 768px) {
+    .destaque-super{
+        width: 80vw;
+        height: 70vh;
+        padding: 5vw;
+    }
+
+    .destaque-super, .projeto{
+        width: 80vw;
+        height: 70vh;
+        padding: 5vw;
+    }
+
+    .botoes-destaque a {
+        width: 20vw;
+        height: 1vh;
+    }
+
+    .projetos-agrupados{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 568px) {
+    .destaque-super, .projeto{
+        height: 60vh;
+    }
+}
+
+@media (max-width: 368px) {
+    .destaque-super, .projeto{
+        height: 40vh;
+    }
+}

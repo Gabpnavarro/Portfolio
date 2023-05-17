@@ -6,7 +6,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     z-index: 10;
   }
@@ -17,11 +17,20 @@ header{
     align-items: center;
     justify-content: center;
     height: 50px;
-    gap: 5em;
+    gap: 5vw;
 }
 
 
 .cabecalho > ul > ui > a{
     text-decoration: none;
     color: #0000EE;
+    display: flex;
+    justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .cabecalho {
+        font-size: 12px;
+    }
+}
+  

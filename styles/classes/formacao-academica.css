@@ -29,6 +29,7 @@
     display: flex;
     align-items: space-around;
     gap: 2em;
+    flex-wrap: wrap;
 }
 
 .curso>ul>li>img{
@@ -36,3 +37,13 @@
     width: 180px;  
 }
 
+@media (max-width: 768px) {
+    .curso>ul{
+        justify-content: center;
+    }
+
+    .curso>ul>li>img{
+        margin-top: 1em;
+        width: 120px;  
+    }
+}
