@@ -1,4 +1,4 @@
- <h1>Portfolio</h1>
+ <h1>Portfólio</h1>
   <h2>Sobre</h2>
   <p>Nesse trecho falo sobre como encontrei a programação e descobri que o front end é a área onde gosto de atuar.</p>
 
