@@ -30,6 +30,7 @@
     color: rgb(219, 219, 219);
 }
 .texto-projeto>p{
+    width: 600px;
     max-width: 80vw;
     margin: 0 auto;
     text-align: justify;
@@ -51,6 +52,7 @@
 .destaque>p{
     max-width: 80vw;
     text-align: justify;
+    width: 600px;
 }
 
 .destaque-super>img{
@@ -74,7 +76,7 @@
 .tecnologias-botoes{
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 4em;
 }
 
 .projeto{
@@ -104,8 +106,7 @@
 
 .destaque-super{
     width: 536px;
-    height: 650px;
-    justify-content: space-around;
+    height: 600px;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;

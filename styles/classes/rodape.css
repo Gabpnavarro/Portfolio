@@ -1,0 +1,123 @@
+footer{
+    background-color: white;
+    display: flex;
+    height: 110px;
+}
+
+.container-footer{
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container-logos{
+    display: flex;
+    justify-content: flex-end;
+    width: 396px;
+    align-items: center;
+}
+
+.container-logos img:nth-child(2){
+    margin-left: 27px;
+}
+
+.suporte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.suporte a {
+    text-decoration: none;
+    color: black;
+}
+.suporte a:nth-child(1){
+    margin-bottom: 8px;
+}
+
+.container-desenvolve{
+    width: 396px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-extra{
+    display: flex;
+    width: 396px;
+    gap: 60px;
+}
+
+.divisoria{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-sociais{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:  18px;
+}
+
+.redes-sociais>a>img{
+    width: 30px;
+}
+
+.grupo-boticario a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1300px){
+    footer{
+        padding: 2em;
+        height: auto;
+        justify-content: center;
+    }
+
+    .suporte>a{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container-footer{
+        flex-direction: column;
+        width: 800px;
+        gap: 24px;
+        padding: 16px;
+    }
+
+    .container-logos {
+        justify-content: center;
+    }
+    
+    footer{
+        height: auto;
+    }
+}  
+
+@media (max-width: 500px) { 
+    .container-footer{
+        width: auto;
+        height: 360px;
+    } 
+
+    .container-extra{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container-desenvolve, .container-extra, .container-logos{
+        width: 100%;
+    }
+
+    .divisoria{
+        margin: 0 auto;
+    }
+}
