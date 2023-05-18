@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-}
+}   
 
 .cabecalho_menu-hamburquer {
   width: 20px;
@@ -65,7 +65,14 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+    .lista-menu__link {
+        color: white;
+    }
+}
+
 @media screen and (min-width: 1024px) {
+
   .cabecalho_menu-hamburquer {
     display: none;
   }
@@ -77,9 +84,9 @@
     transform: translateX(-50%);
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: 600px;
     background-color: transparent;
-    gap: 3em;
   }
 
   .lista-menu > li {
