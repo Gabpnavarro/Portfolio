@@ -10,6 +10,12 @@
     margin: 2em auto;
 }
 
+.texto-redes{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+
 .foto-texto{
     margin-top: 1em;
     display: flex;
@@ -22,7 +28,7 @@
     font-weight: 600;
     
 }
-.foto-texto > p{
+.texto-redes > p{
   color: #33475b;
   display: flex;
   text-align: justify;
@@ -31,7 +37,13 @@
 .foto-texto>img{
     border-radius: 20px;
     border: solid transparent;
-    height: 200px;
+    height: 260px;
+}
+
+.texto-redes > .redes-sociais{
+    margin-top: 1em;
+    margin-bottom: 0em;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
