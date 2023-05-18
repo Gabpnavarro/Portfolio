@@ -15,7 +15,19 @@
     color: white;
     margin-bottom: 1em;
 }
+
+.tech>ul>li>img{
+    width: 60px;
+}
+
+
+.tecnologias-usadas>img{
+    height: 45px;
+}
+
 .tech{
+    max-width: 600px;
+    width: 100%;
     margin-top: 1em;
     padding-left: 4em;
     padding-right: 4em;
@@ -23,15 +35,10 @@
 
 .tech>ul{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    gap: 2em;
     margin-top: 1em;
     flex-wrap: wrap;
-    justify-content: center;
-}
-
-.tech>ul>li{
-    width: 56px;
 }
 
 .tech>ul>li>h3{
@@ -40,5 +47,12 @@
     font-weight: 600;
 }
 
+@media (max-width: 600px){
+    .tech>ul>li{
+        padding: 2em;
+    }
 
-
+    .tech>ul>li>img{
+        width: 50px;
+    }
+}

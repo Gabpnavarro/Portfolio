@@ -73,12 +73,6 @@
     margin: 0 auto;
 }
 
-.tecnologias-botoes{
-    display: flex;
-    flex-direction: column;
-    gap: 4em;
-}
-
 .projeto{
     justify-content: space-around;
     background-color: #FFFFFF;
