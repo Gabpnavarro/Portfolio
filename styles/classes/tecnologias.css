@@ -53,6 +53,10 @@
         width: 100%;
     } 
 
+    .tech>ul{
+        justify-content: space-evenly;
+    } 
+
     .tech>ul>li{
         width: 100px;
         padding: 0px;
